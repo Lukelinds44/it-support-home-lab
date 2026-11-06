@@ -47,7 +47,7 @@ Ran Windows Update until it reported the system was up to date, shut Windows dow
 |---|---|
 | VM crash and recovery from backup | [crash-recovery.md](crash-recovery.md) |
 | Websites won't load (DNS) | [dns-troubleshooting.md](dns-troubleshooting.md) |
-| Locked-out user (password reset / unlock) | Planned |
+| Locked-out user (account unlock and password reset) | [locked-out-user.md](locked-out-user.md) |
 | More to come | |
 
 ## What I learned
