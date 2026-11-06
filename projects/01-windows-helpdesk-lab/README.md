@@ -21,26 +21,25 @@ The installer warned that the disk needed to be at least 52 GB. I opened **Show 
 
 **Lesson:** read the full error message before acting. A 64 GB disk would have avoided the warning entirely.
 
-![Region screen](screenshots/03-region-screen.png)
-![Desktop](screenshots/04-windows-desktop.png)
+![Region screen](screenshots/03-Region-screen.png)
+![Desktop](screenshots/04-windows-desktop-png.png)
 
 ## 2. Fix the missing network driver
 
 After install, the taskbar showed no network icon and Windows had no connection.
 
-![Before: no network icon](screenshots/05-no-network-before.png)
 
 - **Cause:** Windows had no driver for the VM's virtual network card.
 - **Fix:** Installed the UTM guest tools from the mounted disc, then restarted.
 - **Verification:** Internet worked and Settings showed Ethernet as **Connected**. The taskbar icon stayed hidden, which I treated as cosmetic after verifying the real connection state in Settings.
 
-![After: Ethernet connected](screenshots/06-network-connected.png)
+![After: Ethernet connected](screenshots/05-Ethernet-connected.png)
 
 ## 3. Update Windows and create a clean backup
 
 Ran Windows Update until it reported the system was up to date, shut Windows down properly, then cloned the VM in UTM as a clean backup that I never boot or modify.
 
-![Windows up to date](screenshots/07-windows-updated.png)
+![Windows up to date](screenshots/06-windows-updated.png)
 
 ## 4. Break/fix scenarios
 

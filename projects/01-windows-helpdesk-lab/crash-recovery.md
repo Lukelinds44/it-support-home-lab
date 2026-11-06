@@ -11,7 +11,7 @@ While practicing a break/fix scenario, I tried to disable the Ethernet adapter. 
 ## Symptoms
 - Clicking **Disable** on the Ethernet adapter in Network Connections shut the VM down immediately. The VM restarted to the UTM boot logo.
 - The same crash happened on a second attempt, so it was reproducible.
-- After force-stopping the VM, Windows showed an error that it could not recover, with more recovery options. ![Boot recovery error](screenshots/08-boot-recovery-error.png)
+- After force-stopping the VM, Windows showed an error that it could not recover, with more recovery options.
 - Error code shown: **[FILL IN: code from your screenshot, or "none shown"]**
 
 ## Diagnosis steps
@@ -20,7 +20,7 @@ While practicing a break/fix scenario, I tried to disable the Ethernet adapter. 
 3. Reproduced the crash a second time to confirm it was tied to disabling the adapter, then stopped testing that action.
 4. Checked Event Viewer (System log) for Critical or Error entries near the crash time.
    - Result: **[FILL IN: e.g. Kernel-Power Event ID 41, or "did not find an entry"]**
-5. Opened the advanced recovery options and tried **Startup Repair**. ![Startup Repair](screenshots/09-startup-repair.png)
+5. Opened the advanced recovery options and tried **Startup Repair**.
    - Result: **[FILL IN: Startup Repair worked / failed]**
 
 ## Root cause
