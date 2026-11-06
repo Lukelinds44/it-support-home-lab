@@ -4,8 +4,8 @@ Hands-on lab work I'm building to move into IT helpdesk and, from there, cyberse
 
 ## About me
 - Finance degree, 4 months of self-directed study in IT and security
-- TryHackMe: **[add your profile link here]**
-- Currently working toward: CompTIA A+ (**[add status]**)
+- TryHackMe: [tryhackme.com/p/lukeclindsay62](https://tryhackme.com/p/lukeclindsay62)
+- Currently studying for: CompTIA A+ (exam not yet taken)
 - Goal: IT helpdesk role, then security (SOC / GRC)
 
 ## Lab environment
