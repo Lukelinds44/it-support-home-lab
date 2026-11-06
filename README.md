@@ -30,6 +30,7 @@ Hands-on lab work I'm building to move into IT helpdesk and, from there, cyberse
 ## Featured write-ups
 - [Websites won't load: DNS troubleshooting](projects/01-windows-helpdesk-lab/dns-troubleshooting.md)
 - [VM crash and recovery from backup](projects/01-windows-helpdesk-lab/crash-recovery.md)
+- [Locked-out user: account unlock and password reset](projects/01-windows-helpdesk-lab/locked-out-user.md)
 
 ## How I document
 Each scenario uses the same format: **Ticket, Symptoms, Diagnosis, Root cause, Fix, Verification, Notes.** I include what did not work, because that is where most of the learning happens.
